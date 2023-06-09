@@ -21,11 +21,10 @@ editor: visual
 
 **Energy transition prominence:**
 
-- Interest in the term "Energiewende" significantly increased from 2010, peaking around 2014. (Google Trends)
-- Google News searches followed this trend, beginning to rise in 2010 and reaching a peak in 2016.
-- Bundestag speeches saw a surge in "Energiewende" mentions from 2012 to 2014, after sparse mentions until 2011.
-- SPD and Greens made noticeably more mentions of "Energiewende" in 2013, potentially linked to campaign activities.
-
+-   Interest in the term "Energiewende" significantly increased from 2010, peaking around 2014. (Google Trends)
+-   Google News searches followed this trend, beginning to rise in 2010 and reaching a peak in 2016.
+-   Bundestag speeches saw a surge in "Energiewende" mentions from 2012 to 2014, after sparse mentions until 2011.
+-   SPD and Greens made noticeably more mentions of "Energiewende" in 2013, potentially linked to campaign activities.
 
 # Details:
 
@@ -65,6 +64,20 @@ There are two diffferent definitions of having worked in a brown job -- (i) ever
 
 # Trends in energy transition mentions in Bundestag speeches
 
-![](images/energiewende.png)
-![](images/energiewende_party.png)
+![](images/energiewende.png) ![](images/energiewende_party.png)
 
+# Sentiment and polarization in Bundestag speeches
+
+Sentiment analysis is conditional on a speech mentioning the word Energiewende at least once 
+
+## Mean sentiment
+
+![](images/sentiment_mean.png) 
+
+## Mean sentiment by party over time
+
+![](images/sentiment_mean_party.png) 
+
+## SD of sentiment (~polarization)
+
+![](images/sentiment_sd.png) 
